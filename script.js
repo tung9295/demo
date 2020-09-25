@@ -57,7 +57,7 @@ function getSelected() {
 
 submit.addEventListener('click', () => {
     
-        
+        const gitTest = 'testGit';
         if (currentQuestionNum == quizData.length - 1 ) {
             currentQuestionNum = 0;
         } else {
